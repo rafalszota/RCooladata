@@ -60,7 +60,6 @@ Getting help
 -------
 
 Use standard R help for the package. Exectue ``?? RCooladata`` or ``??cooladataConnection`` to access help pages.
-
 CQL language reference can be found in Cooladata documentation: http://docs.cooladata.com/cql-coolasql
 
 License
