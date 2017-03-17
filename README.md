@@ -59,9 +59,21 @@ You can find your developer in Cooladata environment under ``<Profile>/API Token
 Getting help
 -------
 
-Placeholder
+Use standard R help for the package. Exectue ``?? RCooladata`` or ``??cooladataConnection`` to access help pages.
+
+CQL language reference can be found in Cooladata documentation: http://docs.cooladata.com/cql-coolasql
 
 License
 -----
 
-Placeholder
+This package is distributed under Creative Commons Attribution (CC BY 3.0) license terms and conditions.
+Find the full legal text of the license here: https://creativecommons.org/licenses/by/3.0/legalcode
+
+You are free to: **Share** - copy and redistribute the material in any medium or format, **Adapt** -
+remix, transform, and build upon the material, for any purpose, even commercially.
+
+You are obliged to respect the following terms: **Attribution** - give an appropriate credit,
+by providing a link to my LinkedIn (https://www.linkedin.com/in/rafalszota) or GitHub (https://github.com/rafalszota) account. You may do so in any reasonable manner,
+but not in any way that suggests the I'm endorsing you or your use. **No additional restrictions** -
+You may not apply legal terms or technological measures that legally restrict others
+from doing anything the license permits.
