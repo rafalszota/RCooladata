@@ -15,12 +15,14 @@ the function returns the connection that takes query string as an argument and r
 \description{
 This function creates a connection to Cooladata. The connection can be used to run CQL queries.
 The function requires Cooladata developer token in your home repository.
-The token should be stored in ~/.cooladata-dev-token
+The token should be stored in ~/.cooladatatoken
 }
 \examples{
 cooladata <- cooladataConnection(123456)
 cooladata("SELECT event_name FROM cooladata WHERE date_range(last 7 days)  limit 10")
 
 }
-\keyword{cats}
-
+\keyword{API}
+\keyword{Cooladata}
+\keyword{R}
+\keyword{package}

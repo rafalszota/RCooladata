@@ -2,10 +2,10 @@
 #'
 #' This function creates a connection to Cooladata. The connection can be used to run CQL queries.
 #' The function requires Cooladata developer token in your home repository.
-#' The token should be stored in ~/.cooladata-dev-token
+#' The token should be stored in ~/.cooladatatoken
 #' 
 #' @param project_id the internal Cooladata ID of the evironment where to execute the query.
-#' @keywords cats
+#' @keywords Cooladata API R package
 #' @export
 #' @return the function returns the connection that takes query string as an argument and return a data frame
 #' @examples
@@ -26,7 +26,7 @@ cooladataConnection <- function(project_id) {
   TXQ <- "&tqx=out:csv"
   TQ <- "tq="
   
-  token = tryCatch({scan("~/.cooladata-dev-token", what="character")},
+  token = tryCatch({scan("~/.cooladatatoken", what="character")},
                    warning = function(e) {message(TOKEN_NOT_FOUND)},
                    error = function(e) {message(TOKEN_NOT_FOUND)})
   
